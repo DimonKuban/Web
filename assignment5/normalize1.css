@@ -1,0 +1,487 @@
+body{
+	overflow-x: hidden;
+}
+
+
+#header{
+	background-color: #33ff33;
+	border-radius: 20px;
+}
+
+
+#headershort{
+	background-color:#008060;
+	border-radius: 20px;
+	padding-top: 20px;
+}
+
+
+#shirt .name{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.namer{
+	color: #00004d;
+}
+
+#shirt{
+	background-color: red;
+}
+
+#headerreg p{
+	text-align: center;
+	padding-left: 90px;
+	font-size: 20px;
+}
+#headerreg .name{
+	margin-top: 23px;
+	margin-right: 10px;
+}
+
+#shirt #staff{
+	max-width: 1000px;
+	margin-left: 210px;
+}
+
+.price{
+	position: absolute;
+	color: #ffb366;
+}
+
+#shirt .desc{
+	background-color: #b3b3ff;
+	margin: 2px;
+	margin-bottom: 10px;
+}
+
+#shirt{
+	background: url("img/cl2.jpg") no-repeat fixed;
+}
+#shirt button{
+	width: 80px;
+}
+
+#shirt #staff button {
+	width: 110px;
+}
+
+#clear{
+	margin-left: 30px;
+	background-color: yellow;
+	margin-top: 110px;
+}
+
+#transaction{
+	margin-left: 30px;
+	background-color: green;
+	margin-top: -10px;
+	cursor: pointer;
+}
+
+#shirt input{
+	font-family: inherit;
+	font-size: 100%;
+	width: 80px;
+	margin: 8px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+#shirt .desc img{
+	display: block;
+	height: 250px;
+	width: 230px;
+	margin-bottom: 15px;
+}
+
+#shirt .desc{
+	display: inline-block;
+	text-align: center;
+}
+
+#shirt .intro{
+	font-size: 30px;
+	text-align: center;
+	padding: 8px;
+	padding-bottom: 30px;
+	margin-bottom: 15px;	
+	color: #00004d;
+	margin-left: 100px;
+}
+
+input[type=radio]{
+	border: 0px;
+	width: 100%;
+	height: 1.5em;
+}
+
+
+
+#curPrice{
+	margin-left: 35px;
+	margin-top: 15px;
+	color: green;
+	font-weight: bold;
+}
+
+.name{
+	text-align: center;
+	font-size: 15px;
+	float: right;
+	margin-top: 8px;
+	color: #00004d;
+}
+
+#registration{
+	background: url("img/stadium.jpg") no-repeat fixed;
+}
+
+
+#registration form{
+	background: url("img/ball.jpg");
+}
+#registration form, #registration button{
+	width: 220px;
+	margin-left: 500px;
+}
+
+#registration input, textarea, select, button{
+	font-family: inherit;
+	font-size: 100%;
+	width: 200px;
+	margin: 8px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+#registration label{
+	font-weight: bold;
+}
+
+
+#registration input[type=submit]{
+	cursor: pointer;
+	background-color: #00b300;
+}
+
+#registration input[type=reset]{
+	cursor: pointer;
+	background-color: yellow;
+}
+
+
+#registration label{
+	margin-top:5px;
+	width: 200px;
+	position:absolute;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#main-container a{
+	width: 105px;	
+	cursor: pointer;
+}
+
+#main-container {
+	background: url("img/ultras5.jpg") no-repeat fixed;
+	background-size: auto;
+	width: 1200px;
+}
+
+#main-container .main-text{
+	color: #00004d;
+	position: absolute;
+	font-weight: bold;
+	left: 410px;
+	top: 20px;
+	text-align: center;
+	font-size: 33px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#registration .main-text{
+	color: #00004d;
+	position: absolute;
+	font-weight: bold;
+	left: 410px;
+	top: 20px;
+	text-align: center;
+	font-size: 33px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#shirt .main-text{
+	color: #00004d;
+	position: absolute;
+	font-weight: bold;
+	left: 515px;
+	top: 60px;
+	text-align: center;
+	font-size: 33px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+#shirt  nav{
+	background-color: #ccccff;
+	width: 145px;
+	height: 480px;
+	margin-top: 10px;
+	border: 1px solid #000066;
+	float: left;
+
+}
+
+#shirt  nav a{
+		text-decoration: none;
+		color: #00004d;
+}
+
+#shirt  nav ul{
+			list-style-type: none;
+			padding-left: 15px;
+}
+
+#main-container nav p{
+	text-align: center;
+	font-weight: bold;
+}
+
+#registration nav p{
+	text-align: center;
+	font-weight: bold;
+}
+
+#main-container nav{
+	background-color: #ccccff;
+	width: 145px;
+	max-height: 440px;
+	margin-top: 10px;
+	border: 1px solid #000066;
+	float: left;
+}
+
+#registration nav{
+	background-color: #ccccff;
+	width: 145px;
+	max-height: 440px;
+	margin-top: 10px;
+	border: 1px solid #000066;
+	float: left;
+}
+
+#main-container nav a{
+	text-decoration: none;
+	color: #00004d;
+}
+
+#registration nav a{
+	text-decoration: none;
+	color: #00004d;
+}
+
+#main-container nav a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+#registration nav a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+#shirt nav a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+#registration nav a:visited{
+	color: #3333ff;
+}
+
+#main-container nav a:visited{
+	color: #3333ff;
+}
+
+#shirt nav ul a:visited{
+	color: #3333ff;
+}
+
+footer{
+	background-color: #33ff33;
+	text-align: center;
+	position: absolute;
+	margin-top: 100px;
+	width: 1200px;
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+
+
+
+#side div{
+	border: 1px solid #000066;
+	background-color: #ccccff;
+	position: absolute;
+	top: 150px;
+	left: 1040px;
+	padding: 10px;
+}
+
+#registration #side div{
+	left: 860px;
+}
+
+#logo img{
+	width: 120px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#main-container #side div{
+	float: right;
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 130px;
+	height: 177px;
+}
+
+#registration #side div{
+	float: right;
+	/*width: 185px;*/
+	width: 240px;
+	margin-right: 300px;
+	max-height: 400px;
+	color: red;
+}
+
+#registration #side h3{
+	text-align: center;
+}
+#registration #side {
+	margin-right: 30px;
+}
+#side div button{
+	position: absolute;
+	bottom: 5px;
+	right: 15px;
+}
+
+#side div a{
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+	text-decoration: none;
+    text-align: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: #bfbfbf;
+	color: black;
+}
+
+nav #transaction{
+		text-decoration: none;
+    text-align: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+	color: black;
+	margin-left: 22px;
+	position: absolute;
+	top: 575px;
+	width: 100px;
+}
+
+nav #back{
+	text-decoration: none;
+    text-align: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+	color: black;
+	margin-left: 22px;
+	position: absolute;
+	top: 600px;
+	width: 100px;
+	background-color: #bfbfbf;
+}
+
+#side span{
+	color: red;
+	font-weight: bold;
+}
+
+#main-container p span{
+	display: block;
+	color: red;
+	float:right;
+}
+
+#header p {
+	text-align: center;
+	font-size: 25px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+	color: #00001a;
+}
+
+
+#main-container #main #declaration{
+	border: 1px solid #000066;
+	background-color: #ccccff;
+	max-height: 1440px;
+	margin-left: 190px;
+	margin-top: 20px;
+	margin-right: 195px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#main-container ul li{
+	list-style-type: none;
+}
+#registration ul li{
+	list-style-type: none;
+}
+
+#registration div{
+
+	margin-right: 20px;
+}
+
+#registration div ul{
+	padding-left: 0px;
+}
+
+#registration div li{
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+#main-container nav ul{
+	padding-left: 15px;
+}
+
+#registration nav ul{
+	padding-left: 15px;
+}
+
+#err{
+	margin-top: 450px;
+	margin-right: 100px;
+}
+
+::placeholder{
+	opacity: 0.3;
+}
+
+

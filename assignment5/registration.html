@@ -1,0 +1,93 @@
+<!doctype html>
+<head>
+	<title>Registration Korolevskii</title>
+	<link rel="stylesheet" href="normalize1.css">
+	<script src="transaction.js"></script>
+</head>
+
+<body id="registration">
+
+<header id="header">
+
+	<p>
+	Football store
+	</p>
+
+	<div id="logo"><img src="img/rfpl.png" alt="rfpl"></div>
+	<div class="main-text">
+	Welcome to the registration page! <br/>
+	Please fill in the following form
+	</div>
+	<hr>
+</header>
+
+<nav>
+	 <ul>
+	 	<li><a href="registration.html">Registration</a> </li>
+		<li><a href="shirt.html">T-shirts</a> </li>
+		<li><a href="scarf.html">Scarfs</a> </li>
+		<li><a href="index.html">Main page</a> </li>
+	 </ul>
+</nav>
+<section id="side">
+
+</section>
+<section id="main">
+	<div>
+<form name="signup" action="https://httpbin.org/post" onsubmit="return validatePassword()" method="post">
+	<label>First Name</label><br>
+	<input type="text" name="entry1" id="firstName" required/> <br>
+	<label>Last Name</label>
+	<br><input type="text" name="entry2" id="lastName" required/> <br>
+	<label>Unit# </label>
+	<br><input type="text" name="entry3" id="unit" required/> <br>
+	<label>Street#</label>
+	<br><input type="text" name="entry4" id="street" required/>  <br>
+	<label>Street name</label><br>
+	<input type="text" name="entry5" id="streetName" pattern="^[a-zA-Z]+$" placeholder="numbers are not permited" required/> <br>
+	<label>City</label><br>
+	<input type="text" name="entry6" id="city" pattern="^[a-zA-Z]+$" placeholder="only letters" required/>  <br>
+	<label>Province</label><br>
+	<select name="entry7">
+		<option value="AB"> AB </option>
+		<option value="BC"> BC </option>
+		<option value="MB"> MB </option>
+		<option value="NB"> NB </option>
+		<option value="NL"> NL </option>
+		<option value="NS"> NS </option>
+		<option value="NT"> NT </option>
+		<option value="NU"> NU </option>
+		<option value="ON" selected> ON </option>
+		<option value="PE"> PE </option>
+		<option value="QC"> QC </option>
+		<option value="SK"> SK </option>
+		<option value="YT"> YT </option>
+	</select> 
+	<br>
+	<label>Postal Code</label>
+	<br><input type="text" name="entry8" id="postalCode" pattern="([a-zA-Z][0-9]){3}" placeholder="eg: A1A1A1"  required/>  <br>
+	<label>Phone</label>
+	<br><input type="tel" name="entry9" id="phone" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="xxx-xxx-xxxx" required/>  <br>
+	<label>Email</label>
+	<br><input type="email" name="entry10" id="email" required/>  <br>
+	<label>User name</label>
+	<br><input type="text" name="entry11" id="userName" minlength=6 pattern="^[a-zA-Z][0-9a-zA-Z]{5,}" placeholder="starts with a letter" required/>  <br>
+	<label>Password</label>
+	<br><input type="password" name="entry12" class="password" minlength=8 maxlength=8 required/>  <br>
+	<label>Password</label>
+	<br><input type="password" name="entry13" class="password" minlength=8 maxlength=8 required/>  <br>
+	<input type="submit" name="submit" id="submit" value="Submit"/> <br>
+	<input type="reset" name="reset" id="reset" value="Clear"/> <br>
+	<input type="hidden" name="lastName" class="lastName" value="Korolevskii" />
+	<input type="hidden" name="studentId" class="studentId" value="156103160" />
+</form>
+</div>
+</section>
+<footer>
+	<div id="footer">
+		Toronto 2018 <br>
+		Seneca college <br>
+		Dmitrii Korolevskii
+	</div>
+</footer>
+</body>
